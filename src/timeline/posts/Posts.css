@@ -21,8 +21,16 @@
 }
 .post__img{
     width:100%;
+    max-width: 500px;
     border-radius: 6px;
     border: 0.6px solid rgb(128,128,128);
+    overflow: hidden;
+}
+.post__img img{
+    width: 100%;
+   height: auto;
+    border-radius: 6px;
+    display: block;
 }
 .post__footerIcon{
     display: flex;
@@ -42,5 +50,5 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 24.8rem;
+    margin-left: 20rem;
 }
